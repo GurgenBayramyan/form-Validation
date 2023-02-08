@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: 'Lobster', cursive;
+    
+}
+h1{
+    cursor: pointer;
+}
+.registration_form{
+    display: flex;
+    flex-direction: column;
+    width: max(30%,400px);
+    gap: 1vw;
+    padding: 4vw;
+}
+.registration_form input{
+    padding: 1vw 1vw;
+    transition: 1s ease;
+}
+.registration_form input:focus{
+    transform: scale(1.1);
+    font-size: 20px;
+    color: blue;
+}
+.eror{
+    border: 1px solid red;
+}
+.registration_form span{
+    color: red;
+}
+.tell{
+    color: blue;
+}
+span{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.okay{
+    border: 1px solid blue;
+}
